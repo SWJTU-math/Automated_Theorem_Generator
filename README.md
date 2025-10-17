@@ -1,6 +1,6 @@
 ---
 
-# Automated Theorem Generator △1
+# Automated Theorem Generator
 
 **User Manual**
 
