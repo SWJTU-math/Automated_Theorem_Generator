@@ -1,9 +1,7 @@
----
+
 # Automated Theorem Generator △1
 
 **User Manual**
-
----
 
 ---
 
