@@ -20,7 +20,7 @@
 
 The **Automated Theorem Generator** is a tool based on the _Triangle Standard Contradiction Separation_.  
 It automatically generates theorems from logical literals provided by the user.  
-The program features a graphical user interface, making it simple to operate and suitable for both research and teaching.
+The program features a graphical user interface, making it simple to operate and suitable for research, application and teaching.
 
 ---
 
@@ -69,7 +69,7 @@ Predicate(term1, term2, ...)
     
 - Negation is supported: prefix the predicate with `~` (e.g., `~p(a)`).
     
-- Compound terms are supported (e.g., `f(a)`, `g(X, Y)`).
+- Compound terms are supported (e.g., `f(a,g(X,Y)`).
     
 - Only half-width characters are allowed in the input.
 
@@ -166,7 +166,7 @@ s(g(a), h(b, c))
 
 Located at the bottom of the interface:
 
-- **Total Pages**: Displays "Theorem Total: X" (shows "N/A" if input > 10 formulas).
+- **Total Pages**: Displays "Theorem Total: X" (shows "N/A" if input > 10 literals).
     
 - **Page Number Box**: Displays current page; users can enter a number to jump.
     
