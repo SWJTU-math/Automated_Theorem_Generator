@@ -278,6 +278,10 @@ r(f(X), g(Y)) # Predicate r with function term parameters
 6. Use square brackets `[]` to indicate quantifier variable lists
 
 7. Only half-width characters are allowed
+   
+8. The input first-order closed formulas should be satisfiable
+   
+9.  Among all input first-order closed formulas, there should not be complementary first-order closed formulas
 
   
 
