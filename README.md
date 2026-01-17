@@ -39,7 +39,7 @@ It can automatically generate theorems from logical literals or formulas provide
 
   
 
-- **Δ1 Version**: The **Automated Theorem Generator** is a tool based on the _Triangle Standard Contradiction Separation_.
+- **Δ1 Version**: The **Automated Theorem Generator** is a tool based on the _Triangle Standard Contradiction Separation_, deduction by triangle standard contradiction based on standard extension.
 
   
 
