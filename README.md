@@ -174,7 +174,7 @@ In the Generator tab of the application, you can switch input modes through the 
 
 - **Input Format**
   - THF mode uses TPTP thf (typed higher-order form) syntax.
-  - THF mode is intended only for input under standard Henkin semantics.
+  - THF mode is intended for input Henkin and Kripke semantics.
   - Input may contain both type declarations and higher-order formulas.
   - Type declarations follow the TPTP style `symbol: type`, for example:
     - `int: $tType`
@@ -191,7 +191,7 @@ In the Generator tab of the application, you can switch input modes through the 
   - Lambda abstraction `^` is not generated automatically.
   - Function-type arguments such as `(int > int)` are not generated automatically.
 - **THF Mode Rules**
-  - THF input is intended to be read under standard Henkin semantics.
+  - THF input is intended to be read Henkin and Kripke semantics.
   - Type declarations should be placed before the formulas that use the declared symbols.
   - Variable names in formulas should start with uppercase letters.
   - Constant, function, and predicate names should start with lowercase letters.
